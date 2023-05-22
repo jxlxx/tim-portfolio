@@ -1,0 +1,59 @@
+
+html{
+  background-color:#141414;
+  font-family: 'Roboto', sans-serif;
+  overflow:hidden
+}
+
+
+h1 a {
+  color:#e6e6dd;  
+  opacity: 0.85; 
+  font-weight: 900;
+  font-size: 12rem;
+  transition: 200ms;    
+}
+
+h1 a:hover {
+  color:#e6e6dd;  
+  opacity: 1;
+}  
+
+a {
+  color:#e6e6dd;
+  cursor:pointer;
+  text-decoration:none;
+  font-size: 2rem;
+}
+
+
+.content {
+
+  text-align: center;
+
+  .link {
+    color:#e6e6dd;  
+    font-family:  "Roboto", "Helvetica Neue", sans-serif !important;
+    font-weight: 100;
+    padding: 0.3em 1em 0.3em 1em;
+  }
+
+  .name {
+    margin-top: 20vh;
+  }
+
+  .link-box {
+    position: relative;
+    bottom: -40vh;
+  }
+}
+
+
+@media screen and (max-device-width: 800px) {
+
+  a.link {
+    font-size: 3.5rem;
+    display: block;
+  }
+}
+
