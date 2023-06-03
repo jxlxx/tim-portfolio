@@ -10,7 +10,7 @@ h1 a {
   color:#e6e6dd;  
   opacity: 0.85; 
   font-weight: 900;
-  font-size: 12rem;
+  font-size: 9rem;
   transition: 200ms;    
 }
 
@@ -23,7 +23,7 @@ a {
   color:#e6e6dd;
   cursor:pointer;
   text-decoration:none;
-  font-size: 2rem;
+  font-size: 0.9rem;
 }
 
 
