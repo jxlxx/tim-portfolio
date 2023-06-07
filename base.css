@@ -2,7 +2,7 @@
 html{
   background-color:#141414;
   font-family: 'Roboto', sans-serif;
-  overflow:hidden
+  overflow: hidden;
 }
 
 
@@ -10,7 +10,7 @@ h1 a {
   color:#e6e6dd;  
   opacity: 0.85; 
   font-weight: 900;
-  font-size: 9rem;
+  font-size: 14vh;
   transition: 200ms;    
 }
 
@@ -23,12 +23,11 @@ a {
   color:#e6e6dd;
   cursor:pointer;
   text-decoration:none;
-  font-size: 0.9rem;
+  font-size: 2vh;
 }
 
 
 .content {
-
   text-align: center;
 
   .link {
@@ -39,11 +38,12 @@ a {
   }
 
   .name {
-    margin-top: 20vh;
+    margin-top: 31vh;
   }
 
   .link-box {
     position: relative;
+    text-align: center;
     bottom: -40vh;
   }
 }
